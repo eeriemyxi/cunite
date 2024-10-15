@@ -64,6 +64,8 @@ def index():
     ui.dark_mode().enable()
     ui.colors(**constants.GRUVBOX_COLORS)
 
+    ui.page_title("Cunite")
+
     useless_label = ui.label()
 
     with ui.column(align_items="center", wrap=True).classes("fixed-center"):
@@ -90,7 +92,7 @@ def index():
 
 
 def main() -> None:
-    ui.run(reload=constants.RELOAD, storage_secret=constants.STORAGE_SECRET)
+    ui.run(favicon="🌐", reload=constants.RELOAD, storage_secret=constants.STORAGE_SECRET)
 
 
 main()
