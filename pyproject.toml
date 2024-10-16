@@ -1,7 +1,7 @@
 [project]
 name = "cunite"
 version = "0.1.0"
-description = "Select a random video from a random Pornhub subscription."
+description = "Web interface to select a random video from a random Pornhub subscription."
 authors = [
     { name = "myxi", email = "myxi@envs.net" }
 ]
