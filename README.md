@@ -1,4 +1,7 @@
 # Cunite
+
+![](https://files.catbox.moe/rriwz7.png)
+
 Web interface to select a random video from a random Pornhub subscription.
 
 # Installation
